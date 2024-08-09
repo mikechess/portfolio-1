@@ -1,4 +1,5 @@
 import Bio from "./components/Bio";
+import EducationSection from "./components/EducationSection";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -16,6 +17,7 @@ function App() {
         <Bio />
         <Skills />
         <WorkExperience />
+        <EducationSection />
       </div>
     </div>
   );
